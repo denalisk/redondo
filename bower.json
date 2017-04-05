@@ -1,0 +1,18 @@
+{
+  "name": "redondo-v1",
+  "description": "Website for redondo-tile in San Antonio, TX",
+  "main": "",
+  "authors": [
+    "Sam Kirsch <samdkirsch2@gmail.com>"
+  ],
+  "license": "All Rights Reserved",
+  "homepage": "www.redondotile.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
