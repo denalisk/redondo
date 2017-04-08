@@ -12,6 +12,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
 import { routing } from './app.routing';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { routing } from './app.routing';
     ContactComponent,
     GalleryComponent,
     FaqsComponent,
-    ProductInfoComponent
+    ProductInfoComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
