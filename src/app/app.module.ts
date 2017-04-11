@@ -14,6 +14,9 @@ import { ProductInfoComponent } from './product-info/product-info.component';
 import { routing } from './app.routing';
 import { CarouselComponent } from './carousel/carousel.component';
 
+import { CarouselModule } from '../../node_modules/ngx-bootstrap/carousel';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +33,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
