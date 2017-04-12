@@ -1,19 +1,19 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Redondo Tile</a>
+<div class="container main-content">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="">Redondo Tile</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="product-info">Product Info</a></li>
+        <li><a routerLink="collections">Collections</a></li>
+        <li><a routerLink="gallery">Gallery</a></li>
+        <li><a routerLink="about">About</a></li>
+        <li><a routerLink="faqs">FAQS</a></li>
+        <li><a routerLink="contact">Contact</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a routerLink="">Home</a></li>
-      <li><a routerLink="product-info">Product Info</a></li>
-      <li><a routerLink="collections">Collections</a></li>
-      <li><a routerLink="gallery">Gallery</a></li>
-      <li><a routerLink="about">About</a></li>
-      <li><a routerLink="faqs">FAQS</a></li>
-      <li><a routerLink="contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-<div class="container-fluid">
+  </nav>
   <router-outlet></router-outlet>
 </div>

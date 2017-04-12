@@ -1,0 +1,25 @@
+div.logo-image {
+  width: 10%;
+  max-width: 100px;
+  float: left;
+  margin-right: 3%;
+  display: none;
+}
+
+div.logo-image img {
+  width: 100%;
+  max-width: 100px;
+}
+
+div.lettering-image {
+  margin-left: 23%;
+  margin-right: 17%;
+  width: 60%;
+  float: left;
+  margin-right: 3%;
+}
+
+div.lettering-image img {
+  width: 100%;
+  max-width: 600px;
+}
