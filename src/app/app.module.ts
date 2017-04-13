@@ -15,6 +15,10 @@ import { routing } from './app.routing';
 import { CarouselComponent } from './carousel/carousel.component';
 
 import { CarouselModule } from '../../node_modules/ngx-bootstrap/carousel';
+import { SiteMapComponent } from './site-map/site-map.component';
+import { LegalComponent } from './legal/legal.component';
+import { TileSamplerComponent } from './tile-sampler/tile-sampler.component';
+import { CustomizerComponent } from './customizer/customizer.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { CarouselModule } from '../../node_modules/ngx-bootstrap/carousel';
     GalleryComponent,
     FaqsComponent,
     ProductInfoComponent,
-    CarouselComponent
+    CarouselComponent,
+    SiteMapComponent,
+    LegalComponent,
+    TileSamplerComponent,
+    CustomizerComponent
   ],
   imports: [
     BrowserModule,

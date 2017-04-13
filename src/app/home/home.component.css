@@ -1,3 +1,17 @@
+div.fancy-image-wrapper {
+  width: 100%;
+}
+
+div.fancy-image-wrapper img {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid grey;
+}
+div.fancy-image-wrapper img:hover {
+  cursor: pointer;
+}
+
+
 div.logo-image {
   width: 10%;
   max-width: 100px;
@@ -11,6 +25,10 @@ div.logo-image img {
   max-width: 100px;
 }
 
+div.legal-section {
+  margin-bottom: 5%;
+}
+
 div.lettering-image {
   margin-left: 23%;
   margin-right: 17%;
@@ -22,4 +40,15 @@ div.lettering-image {
 div.lettering-image img {
   width: 100%;
   max-width: 600px;
+}
+
+div.row-filler {
+  height: 100%;
+  background-color: red;
+}
+
+div.universal-link-section {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  border-top: 1px solid grey;
 }

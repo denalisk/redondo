@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
+import { CustomizerComponent } from './customizer/customizer.component';
 
 const appRoutes: Routes = [
   {
@@ -37,6 +38,10 @@ const appRoutes: Routes = [
   {
     path: 'product-info',
     component: ProductInfoComponent
+  },
+  {
+    path: 'customizer',
+    component: CustomizerComponent
   },
 ];
 

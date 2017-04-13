@@ -1,18 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 
+import { TileService } from '../tile.service';
+import { Tile } from '../tile.model';
 import { Image } from '../image.model';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  providers: [TileService]
 })
 export class HomeComponent implements OnInit {
-  public images: Image[] = Image.carouselArray;
+  public tiles: Tile[];
 
-  constructor() { }
+  constructor(private tileService: TileService) { }
 
   ngOnInit() {
+    this.tiles = this.tileService.getTiles();
   }
 
 }

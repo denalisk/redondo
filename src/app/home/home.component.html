@@ -6,29 +6,52 @@
     </div>
     <div class="lettering-image">
       <img src="../assets/images/redondo-lettering.png" alt="Redondo Tile and Stone">
-
     </div>
-
   </div>
 
 </div>
-<app-carousel></app-carousel>
+<app-carousel [tiles]="tiles"></app-carousel>
 <div class="row">
   <div class="col-md-12">
     <h1>Small teaser about section, maybe with picture of the artist</h1>
-
   </div>
 </div>
+<hr>
 
 <div class="row">
-  <div class="col-md-4">
-    <h1>Mini description Link section - to custom builder</h1>
+  <div class="col-sm-4">
+    <h3>
+      Create Custom Tiles
+    </h3>
+    <div class="fancy-image-wrapper" routerLink='about'>
+      <img src="../../assets/images/standin1.png" alt="Standin Image">
+    </div>
+    <div class="mini-section-text">
+      <h4>Use our design program to add your own personal touch to tiles and preview them online. Choose from a variety of templates and customize them with all the colors in our pallette. We'll be happy bring your creation to life!</h4>
+    </div>
   </div>
-  <div class="col-md-4">
-    <h1>Mini description Link section - Collection</h1>
+  <div class="col-sm-4">
+    <h3>
+      Browse Our Collection
+    </h3>
+    <div class="fancy-image-wrapper" routerLink='collections'>
+      <img src="../../assets/images/standin3.png" alt="Standin Image">
+    </div>
+    <div class="mini-section-text">
+      <h4>View all of our tile designs, new and old.</h4>
+    </div>
   </div>
-  <div class="col-md-4">
-    <h1>Mini description Link section - Installations gallery</h1>
+  <div class="col-sm-4">
+    <h3>
+      View Past Installations
+    </h3>
+    <div class="fancy-image-wrapper" routerLink='gallery'>
+      <img src="../../assets/images/standin2.png" alt="Standin Image">
+    </div>
+    <div class="mini-section-text">
+      <h4></h4>
+    </div>
+    <h4>Regardless of whether your need is commercial or residential, we have years of experience producing and installing high quality, durable, and beautiful tile</h4>
   </div>
 </div>
 
@@ -36,6 +59,19 @@
 <div class="row">
   <div class="col-md-12">
     <h1>Sliding update area of random tiles</h1>
+
+  </div>
+</div>
+<div class="row universal-link-section">
+  <div class="col-md-12">
+    <app-site-map></app-site-map>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 legal-section">
+    <app-legal></app-legal>
 
   </div>
 </div>

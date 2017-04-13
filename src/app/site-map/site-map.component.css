@@ -1,0 +1,12 @@
+.main-container {
+  margin-top: 2%;
+}
+
+li {
+  color: blue;
+  text-decoration: underline;
+}
+
+li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<div class="main-container">
+  <div class="col-sm-4">
+    <ul>
+      <li *ngFor="let link of mainLinks" (click)="linkTo(link.path)">{{link.description}}</li>
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    <li *ngFor="let link of secondLinks" (click)="linkTo(link.path)">{{link.description}}</li>
+  </div>
+  <div class="col-sm-4">
+    <li *ngFor="let link of thirdLinks" (click)="linkTo(link.path)">{{link.description}}</li>
+  </div>
+</div>
