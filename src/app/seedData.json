@@ -1,0 +1,92 @@
+{ "tiles": [
+  {
+    "name": "Blue Steel",
+    "collectionId": "Classics",
+    "image" : {
+      "srcString": ".././assets/images/standin2.png",
+      "altString": "A standin image 2",
+      "title": "A standin image 2",
+      "id": "2"
+    }
+  },
+  {
+    "name": "Red October",
+    "collectionId": "Classics",
+    "image" : {
+      "srcString": ".././assets/images/standin1.png",
+      "altString": "A standin image 1",
+      "title": "A standin image 1",
+      "id": "1"
+    }
+  },
+  {
+    "name": "Clockwork Orange",
+    "collectionId": "Classics",
+    "image" : {
+      "srcString": ".././assets/images/standin3.png",
+      "altString": "A standin image 3",
+      "title": "A standin image 3",
+      "id": "3"
+    }
+  },
+  {
+    "name": "Green Room",
+    "collectionId": "Sporty",
+    "image" : {
+      "srcString": ".././assets/images/standin4.png",
+      "altString": "A standin image 4",
+      "title": "A standin image 4",
+      "id": "4"
+    }
+  },
+  {
+    "name": "Mellow Yellow",
+    "collectionId": "NeoModern",
+    "image" : {
+      "srcString": ".././assets/images/standin5.png",
+      "altString": "A standin image 5",
+      "title": "A standin image 5",
+      "id": "5"
+    }
+  },
+  {
+    "name": "Purple Haze",
+    "collectionId": "NeoModern",
+    "image" : {
+      "srcString": ".././assets/images/standin6.png",
+      "altString": "A standin image 6",
+      "title": "A standin image 6",
+      "id": "6"
+    }
+  },
+  {
+    "name": "Black Hat",
+    "collectionId": "Sporty",
+    "image" : {
+      "srcString": ".././assets/images/standin4.png",
+      "altString": "A standin image 4",
+      "title": "A standin image 4",
+      "id": "4"
+    }
+  },
+  {
+    "name": "Teal Appeal",
+    "collectionId": "Sporty",
+    "image" : {
+      "srcString": ".././assets/images/standin1.png",
+      "altString": "A standin image 1",
+      "title": "A standin image 1",
+      "id": "1"
+    }
+  },
+  {
+    "name": "Violet Beauregard",
+    "collectionId": "Classics",
+    "image" : {
+      "srcString": ".././assets/images/standin1.png",
+      "altString": "A standin image 1",
+      "title": "A standin image 1",
+      "id": "1"
+    }
+  }
+  ]}

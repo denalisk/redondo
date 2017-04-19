@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Image } from '../image.model'
+import { FirebaseListObservable } from 'angularFire2';
+import { Image } from '../image.model';
+import { Tile } from '../tile.model';
+import { TileService } from '../tile.service';
 
 @Component({
   selector: 'app-tile-sampler',
@@ -7,10 +10,14 @@ import { Image } from '../image.model'
   styleUrls: ['./tile-sampler.component.css']
 })
 export class TileSamplerComponent implements OnInit {
+  public tiles: Tile[];
+  public limiter: number = 6;
 
-  constructor() { }
+
+  constructor(private tileService: TileService) { }
 
   ngOnInit() {
+    this.tileService.getTiles().subscribe(data => {this.tiles = data;});
   }
 
 }

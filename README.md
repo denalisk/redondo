@@ -1,3 +1,10 @@
+## SELF NOTES
+* Firebase credentials are added and need to be linked properly
+* Firebase rules need to be adjusted so that they don't just allow everyone
+* Seed data eventually needs to be in Gitignore
+
+
+
 # RedondoV1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
