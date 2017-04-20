@@ -11,7 +11,6 @@ div.fancy-image-wrapper img:hover {
   cursor: pointer;
 }
 
-
 div.logo-image {
   width: 10%;
   max-width: 100px;
@@ -42,6 +41,10 @@ div.lettering-image img {
   max-width: 600px;
 }
 
+div.mini-about {
+  font-size: 17px;
+}
+
 div.row-filler {
   height: 100%;
   background-color: red;
@@ -51,4 +54,9 @@ div.universal-link-section {
   margin-top: 5%;
   margin-bottom: 1%;
   border-top: 1px solid grey;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 5%;
 }

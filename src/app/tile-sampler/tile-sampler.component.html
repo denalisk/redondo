@@ -1,3 +1,11 @@
-<div class="sampler-wrapper" *ngFor="let image of imageList">
-  <img src="image.srcString" alt="altString">
+<div class="title">
+  <h3>Sample tiles</h3>
+</div>
+<div class="sampler-wrapper" *ngFor="let tile of tiles | limiterPipe: limit">
+  <img src="{{tile.image.srcString}}" alt="{{tile.image.altString}}">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h5>{{tile.name}}</h5>
+    </div>
+  </div>
 </div>

@@ -1,9 +1,9 @@
 <div class="carousel-wrapper">
   <carousel>
-    <slide *ngFor="let tile of tiles">
-      <img src="{{tile.image.srcString}}" alt="{{tile.image.altString}}">
+    <slide *ngFor="let image of images">
+      <img src="{{image.srcString}}" alt="{{image.altString}}">
       <div class="carousel-caption">
-        <h3>{{tile.image.title}}</h3>
+        <h3>{{image.title}}</h3>
       </div>
     </slide>
   </carousel>

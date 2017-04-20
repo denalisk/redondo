@@ -7,11 +7,12 @@ import { TileService } from '../tile.service';
 @Component({
   selector: 'app-tile-sampler',
   templateUrl: './tile-sampler.component.html',
-  styleUrls: ['./tile-sampler.component.css']
+  styleUrls: ['./tile-sampler.component.css'],
+  providers: [TileService]
 })
 export class TileSamplerComponent implements OnInit {
   public tiles: Tile[];
-  public limiter: number = 6;
+  public limit: number = 6;
 
 
   constructor(private tileService: TileService) { }

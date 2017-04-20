@@ -8,7 +8,7 @@ import { Tile } from '../tile.model';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
-  @Input() tiles: Tile[];
+  @Input() images: Image[];
 
   constructor() { }
 

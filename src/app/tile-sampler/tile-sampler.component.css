@@ -1,0 +1,13 @@
+.sampler-wrapper {
+  width: 16.66%;
+  float: left;
+  padding: 0% .5% 0% .5%;
+}
+
+.title {
+  margin-top: 3%;
+}
+
+.sampler-wrapper img {
+  width: 100%;
+}

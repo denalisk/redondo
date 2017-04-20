@@ -10,10 +10,26 @@
   </div>
 
 </div>
-<app-carousel [tiles]="tiles"></app-carousel>
+<app-carousel [images]="images"></app-carousel>
+<br>
 <div class="row">
   <div class="col-md-12">
-    <h1>Small teaser about section, maybe with picture of the artist</h1>
+    <h2>Small teaser about section, maybe with picture of the artist</h2>
+    <br>
+  </div>
+  <div class="col-md-4">
+    <div class="fancy-image-wrapper">
+      <img src="../../assets/images/icon-background.jpg" alt="">
+    </div>
+  </div>
+  <div class="mini-about col-md-8">
+    <p>Here is some awesome information about cement tiles! Curabitur rutrum enim in ante elementum iaculis. Nunc mollis congue nibh, efficitur scelerisque lacus vulputate id. Suspendisse potenti. Vivamus ultrices vehicula pharetra. <a href="#">With some links</a> varius, sem sed maximus semper, purus ligula mollis velit, sit amet rhoncus mauris dolor et libero. Nulla a <a href="#">and other links</a> vulputate diam. Integer lobortis sagittis pharetra.</p>
+    <ul><h3>With some more pertinent points:</h3>
+      <li>Here are some bullets!</li>
+      <li>Here are some bullets!</li>
+      <li>Here are some bullets!</li>
+    </ul>
+
   </div>
 </div>
 <hr>
@@ -58,8 +74,9 @@
 
 <div class="row">
   <div class="col-md-12">
-    <h1>Sliding update area of random tiles</h1>
-
+    <div class="center-align">
+      <app-tile-sampler></app-tile-sampler>
+    </div>
   </div>
 </div>
 <div class="row universal-link-section">

@@ -10,4 +10,8 @@ export class ImageService {
 
   constructor() { }
 
+  public getImages() {
+    return this.images;
+  }
+
 }
