@@ -1,10 +1,10 @@
 <div class="content">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <div class="dropdown">
         <label for="categorySelector">Choose a collection to narrow the tiles shown</label>
         <select class="form-control" name="categorySelector" (input)="setFilterCategory($event.target.value)" [value]="filterCategory">
-          <<option value="All">All</option>
+          <<option value="All" selected>All</option>
           <option *ngFor="let category of categories">{{category.name}}</option>
         </select>
         <br>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <div class="collections-details">
         <div class="tile-detail" *ngIf="tileSelected === true">
           <h3>{{currentTile.name}}</h3>

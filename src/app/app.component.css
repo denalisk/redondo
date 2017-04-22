@@ -2,7 +2,6 @@ div.main-content {
   font-family: 'Slabo 27px', serif;
 }
 
-/*.center-align {
-  margin: 0% 1% 0% 1%;
-  width: 98%
-}*/
+div.layout-content {
+  height: 9vh;
+}

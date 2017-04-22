@@ -1,4 +1,13 @@
-div.content {
+div.category-detail-image {
+  width: 95%;
+}
+
+div.category-detail-image img {
+  width: 100%;
+}
+
+div.dropdown {
+  height: 11vh;
 }
 
 div.sampler-wrapper {
@@ -7,14 +16,6 @@ div.sampler-wrapper {
 }
 
 div.sampler-wrapper img {
-  width: 100%;
-}
-
-div.category-detail-image {
-  width: 95%;
-}
-
-div.category-detail-image img {
   width: 100%;
 }
 
@@ -27,6 +28,7 @@ div.tile-detail-image img{
 }
 
 div.tile-selector-box {
-  height: 85vh;
+  height: 78vh;
   overflow-y: auto;
+  border-bottom: 1px solid grey;
 }
