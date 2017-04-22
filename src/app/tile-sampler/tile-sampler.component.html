@@ -1,7 +1,7 @@
 <div class="title">
   <h3>Sample tiles</h3>
 </div>
-<div class="sampler-wrapper" *ngFor="let tile of tiles | limiterPipe: limit">
+<div class="sampler-wrapper" *ngFor="let tile of tiles | categoryPipe | limiterPipe: limit">
   <img src="{{tile.image.srcString}}" alt="{{tile.image.altString}}">
   <div class="panel panel-default">
     <div class="panel-heading">

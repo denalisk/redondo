@@ -22,6 +22,8 @@ import { TileSamplerComponent } from './tile-sampler/tile-sampler.component';
 import { CustomizerComponent } from './customizer/customizer.component';
 import { masterFirebaseConfig } from './api-keys';
 import { LimiterPipe } from './limiter.pipe';
+import { CategoryPipe } from './category.pipe';
+import { WaitPipe } from './wait.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -47,7 +49,9 @@ export const firebaseConfig = {
     LegalComponent,
     TileSamplerComponent,
     CustomizerComponent,
-    LimiterPipe
+    LimiterPipe,
+    CategoryPipe,
+    WaitPipe
   ],
   imports: [
     BrowserModule,

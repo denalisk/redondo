@@ -10,21 +10,25 @@ export class TileService {
   public tiles: FirebaseListObservable<any[]>;
 
   constructor(private angularFire: AngularFire) {
-    this.tiles = angularFire.database.list('tiles');
+    this.tiles = angularFire.database.list('categories');
   }
 
-  getTiles(): FirebaseListObservable<any[]> {
+  public getTiles(): FirebaseListObservable<any[]> {
     return this.tiles;
   }
 
-  getTileById(tileId: string): FirebaseObjectObservable<any> {
-    return this.angularFire.database.object('tiles/' + tileId);
+  public getTileById(categoryId: string): FirebaseObjectObservable<any> {
+    return this.angularFire.database.object('categories/' + categoryId);
   }
 
-  getTilesByCategory(category: string): Tile[] {
+  public getTilesByCategory(category: string): Tile[] {
     // THIS ONE NEEDS WORK NOW. Maybe just do this with a pipe
     let output: Tile[] = [];
     return output;
+  }
+
+  public getTileCategories(): string[] {
+    return ["Classics", "NeoModern", "Sporty"];
   }
 
 }

@@ -1,3 +1,21 @@
-<p>
-  gallery works!
-</p>
+<div class="outer-stuff">
+
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="sampler-wrapper" *ngFor="let tile of tiles | categoryPipe: category">
+      <img src="{{tile.image.srcString}}" alt="{{tile.image.altString}}">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h5>{{tile.name}}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="collections-details">
+      <h3>This is where the information about the collection will go, or directions for how to pick something and general information</h3>
+    </div>
+  </div>
+</div>

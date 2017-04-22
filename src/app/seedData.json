@@ -1,92 +1,122 @@
-{ "tiles": [
+{ "categories": [
   {
-    "name": "Blue Steel",
-    "collectionId": "Classics",
-    "image" : {
-      "srcString": ".././assets/images/standin2.png",
-      "altString": "A standin image 2",
-      "title": "A standin image 2",
-      "id": "2"
-    }
-  },
-  {
-    "name": "Red October",
-    "collectionId": "Classics",
-    "image" : {
+    "name": "Classics",
+    "description": "Our most time-honored collection of fantastic, simple, elegant tiles.",
+    "primaryArtist": "Dan Imel",
+    "image": {
       "srcString": ".././assets/images/standin1.png",
       "altString": "A standin image 1",
       "title": "A standin image 1",
       "id": "1"
-    }
-  },
-  {
-    "name": "Clockwork Orange",
-    "collectionId": "Classics",
-    "image" : {
-      "srcString": ".././assets/images/standin3.png",
-      "altString": "A standin image 3",
-      "title": "A standin image 3",
-      "id": "3"
-    }
-  },
-  {
-    "name": "Green Room",
-    "collectionId": "Sporty",
-    "image" : {
-      "srcString": ".././assets/images/standin4.png",
-      "altString": "A standin image 4",
-      "title": "A standin image 4",
-      "id": "4"
-    }
-  },
-  {
-    "name": "Mellow Yellow",
-    "collectionId": "NeoModern",
-    "image" : {
-      "srcString": ".././assets/images/standin5.png",
-      "altString": "A standin image 5",
-      "title": "A standin image 5",
-      "id": "5"
-    }
-  },
-  {
-    "name": "Purple Haze",
-    "collectionId": "NeoModern",
-    "image" : {
-      "srcString": ".././assets/images/standin6.png",
-      "altString": "A standin image 6",
-      "title": "A standin image 6",
-      "id": "6"
-    }
-  },
-  {
-    "name": "Black Hat",
-    "collectionId": "Sporty",
-    "image" : {
-      "srcString": ".././assets/images/standin4.png",
-      "altString": "A standin image 4",
-      "title": "A standin image 4",
-      "id": "4"
-    }
-  },
-  {
-    "name": "Teal Appeal",
-    "collectionId": "Sporty",
-    "image" : {
-      "srcString": ".././assets/images/standin1.png",
-      "altString": "A standin image 1",
-      "title": "A standin image 1",
-      "id": "1"
-    }
-  },
-  {
-    "name": "Violet Beauregard",
-    "collectionId": "Classics",
-    "image" : {
-      "srcString": ".././assets/images/standin1.png",
-      "altString": "A standin image 1",
-      "title": "A standin image 1",
-      "id": "1"
-    }
+    },
+    "tiles": [
+      {
+        "name": "Blue Steel",
+        "image" : {
+          "srcString": ".././assets/images/standin2.png",
+          "altString": "A standin image 2",
+          "title": "A standin image 2",
+          "id": "2"
+        }
+      },
+      {
+        "name": "Violet Beauregard",
+        "image" : {
+          "srcString": ".././assets/images/standin1.png",
+          "altString": "A standin image 1",
+          "title": "A standin image 1",
+          "id": "1"
+        }
+      },
+      {
+        "name": "Red October",
+        "image" : {
+          "srcString": ".././assets/images/standin1.png",
+          "altString": "A standin image 1",
+          "title": "A standin image 1",
+          "id": "1"
+        }
+      },
+      {
+        "name": "Clockwork Orange",
+        "image" : {
+          "srcString": ".././assets/images/standin3.png",
+          "altString": "A standin image 3",
+          "title": "A standin image 3",
+          "id": "3"
+        }
+      }
+    ]
+    },
+    {
+      "name": "Sporty",
+      "description": "Tiles for the active, these bright and dynamic shapes will make you want to walk on them.",
+      "primaryArtist": "Jane Fonda",
+      "image": {
+        "srcString": ".././assets/images/standin1.png",
+        "altString": "A standin image 1",
+        "title": "A standin image 1",
+        "id": "1"
+      },
+      "tiles": [
+        {
+          "name": "Green Room",
+          "image" : {
+            "srcString": ".././assets/images/standin4.png",
+            "altString": "A standin image 4",
+            "title": "A standin image 4",
+            "id": "4"
+          }
+        },
+        {
+          "name": "Black Hat",
+          "image" : {
+            "srcString": ".././assets/images/standin4.png",
+            "altString": "A standin image 4",
+            "title": "A standin image 4",
+            "id": "4"
+          }
+        },
+        {
+          "name": "Teal Appeal",
+          "image" : {
+            "srcString": ".././assets/images/standin1.png",
+            "altString": "A standin image 1",
+            "title": "A standin image 1",
+            "id": "1"
+          }
+        }
+      ]
+      },
+      {
+        "name": "NeoModern",
+        "description": "These contemporary designs will wow you will the poignancy and impress you with their depth of purpose.",
+        "primaryArtist": "Batman",
+        "image": {
+          "srcString": ".././assets/images/standin1.png",
+          "altString": "A standin image 1",
+          "title": "A standin image 1",
+          "id": "1"
+        },
+        "tiles": [
+          {
+            "name": "Mellow Yellow",
+            "image" : {
+              "srcString": ".././assets/images/standin5.png",
+              "altString": "A standin image 5",
+              "title": "A standin image 5",
+              "id": "5"
+            }
+          },
+          {
+            "name": "Purple Haze",
+            "image" : {
+              "srcString": ".././assets/images/standin6.png",
+              "altString": "A standin image 6",
+              "title": "A standin image 6",
+              "id": "6"
+            }
+          }
+        ]
   }
   ]}
