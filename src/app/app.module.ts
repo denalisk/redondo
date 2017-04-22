@@ -21,9 +21,9 @@ import { LegalComponent } from './legal/legal.component';
 import { TileSamplerComponent } from './tile-sampler/tile-sampler.component';
 import { CustomizerComponent } from './customizer/customizer.component';
 import { masterFirebaseConfig } from './api-keys';
-import { LimiterPipe } from './limiter.pipe';
-import { CategoryPipe } from './category.pipe';
-import { WaitPipe } from './wait.pipe';
+import { LimiterPipe } from './Pipes/limiter.pipe';
+import { CategoryPipe } from './Pipes/category.pipe';
+import { WaitPipe } from './Pipes/wait.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,

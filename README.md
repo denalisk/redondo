@@ -2,6 +2,7 @@
 * Firebase credentials are added and need to be linked properly
 * Firebase rules need to be adjusted so that they don't just allow everyone
 * Seed data eventually needs to be in Gitignore
+* Going to need media queries for the tile detail in the gallery, if the screen is small it just pops up
 
 
 

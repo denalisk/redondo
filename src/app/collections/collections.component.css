@@ -1,0 +1,32 @@
+div.content {
+}
+
+div.sampler-wrapper {
+  width: 50%;
+  float: left;
+}
+
+div.sampler-wrapper img {
+  width: 100%;
+}
+
+div.category-detail-image {
+  width: 95%;
+}
+
+div.category-detail-image img {
+  width: 100%;
+}
+
+div.tile-detail-image {
+  width: 95%;
+}
+
+div.tile-detail-image img{
+  width: 100%;
+}
+
+div.tile-selector-box {
+  height: 85vh;
+  overflow-y: auto;
+}

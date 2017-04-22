@@ -1,3 +1,50 @@
-<p>
-  collections works!
-</p>
+<div class="content">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="dropdown">
+        <label for="categorySelector">Choose a collection to narrow the tiles shown</label>
+        <select class="form-control" name="categorySelector" (input)="setFilterCategory($event.target.value)" [value]="filterCategory">
+          <<option value="All">All</option>
+          <option *ngFor="let category of categories">{{category.name}}</option>
+        </select>
+        <br>
+      </div>
+      <div class="tile-selector-box">
+        <div class="sampler-wrapper" *ngFor="let tile of categories | categoryPipe: filterCategory" (click)="tileClick(tile)">
+          <img src="{{tile.image.srcString}}" alt="{{tile.image.altString}}">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h5>{{tile.name}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="collections-details">
+        <div class="tile-detail" *ngIf="tileSelected === true">
+          <h3>{{currentTile.name}}</h3>
+          <div class="tile-detail-image">
+            <img src="{{currentTile.image.srcString}}" alt="{{currentTile.image.altString}}">
+          </div>
+          <br>
+          <button class="btn btn-danger" (click)="clearSelection()">
+            Clear Selection
+          </button>
+        </div>
+        <div class="collection-detail" *ngIf="tileSelected === false">
+          <div *ngIf="categorySelected === true">
+            <h3>{{currentCategory.name}}</h3>
+            <div class="category-detail-image">
+              <img src="{{currentCategory.image.srcString}}" alt="{{currentCategory.image.altString}}">
+            </div>
+            <p>{{currentCategory.description}}</p>
+          </div>
+          <div *ngIf="categorySelected === false">
+            <h4>Select one of our tiles from the tile selection menu to see it's details here. Or, narrow your search by selecting one of our collections from the drop-down menu</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
