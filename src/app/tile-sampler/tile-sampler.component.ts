@@ -13,6 +13,7 @@ import { TileService } from '../tile.service';
 export class TileSamplerComponent implements OnInit {
   public tiles: Tile[];
   public limit: number = 6;
+  public randomSetting: boolean = true;
 
 
   constructor(private tileService: TileService) { }
