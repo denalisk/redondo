@@ -13,3 +13,8 @@ div.main {
   width: 75%;
   float: left;
 }
+
+ div.button-holder {
+   margin-top: 3%;
+   margin: 3%;
+ }

@@ -1,0 +1,22 @@
+div.page-cover {
+  z-index: 500;
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(222, 224, 226, .4);
+}
+
+div.image-focus-holder {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+div.image-focus-holder img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

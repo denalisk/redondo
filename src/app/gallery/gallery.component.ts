@@ -38,4 +38,8 @@ export class GalleryComponent implements OnInit {
     this.imageIsInFocus = true;
   }
 
+  public incrementLimit() {
+    this.limit += 5;
+  }
+
 }

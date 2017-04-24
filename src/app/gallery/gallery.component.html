@@ -1,12 +1,11 @@
-<div class="focus-image" *ngIf="imageIsInFocus">
-  <img src="{{focusImage.srcString}}" alt="{{focusImage.altString}}">
-</div>
+<app-image-focus *ngIf="imageIsInFocus" [currentImage]="focusImage" (clickSender)="exitImageFocus()"></app-image-focus>
 <div class="content">
   <div class="row">
     <div class="col-md-12">
       <h1>Here are some examples of our past work</h1>
     </div>
   </div>
+  <br>
   <div class="installation-holder" *ngFor="let installation of installations | limiterPipe: limit">
     <div class="row">
       <div class="col-md-8">
@@ -21,6 +20,20 @@
         <hr>
         <p>{{installation.description}}</p>
       </div>
+    </div>
+    <hr>
+  </div>
+  <div class="button-holder text-center">
+      <button type="button" class="btn btn-info" (click)="incrementLimit()">Load More Installations</button>
+  </div>
+  <div class="row universal-link-section">
+    <div class="col-sm-12">
+      <app-site-map></app-site-map>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 legal-section">
+      <app-legal></app-legal>
     </div>
   </div>
 </div>

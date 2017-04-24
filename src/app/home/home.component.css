@@ -25,10 +25,6 @@ div.logo-image img {
   max-width: 100px;
 }
 
-div.legal-section {
-  margin-bottom: 5%;
-}
-
 div.lettering-image {
   margin-left: 23%;
   margin-right: 17%;
@@ -49,12 +45,6 @@ div.mini-about {
 div.row-filler {
   height: 100%;
   background-color: red;
-}
-
-div.universal-link-section {
-  margin-top: 5%;
-  margin-bottom: 1%;
-  border-top: 1px solid grey;
 }
 
 ul li {
