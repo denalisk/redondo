@@ -7,6 +7,7 @@ div.fancy-image-wrapper img {
   padding: 1%;
   border: 1px solid grey;
 }
+
 div.fancy-image-wrapper img:hover {
   cursor: pointer;
 }

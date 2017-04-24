@@ -1,3 +1,26 @@
-<div class="">
-  Gallery works!
+<div class="focus-image" *ngIf="imageIsInFocus">
+  <img src="{{focusImage.srcString}}" alt="{{focusImage.altString}}">
+</div>
+<div class="content">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Here are some examples of our past work</h1>
+    </div>
+  </div>
+  <div class="installation-holder" *ngFor="let installation of installations | limiterPipe: limit">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="installation-image-wrapper" *ngFor="let image of installation['images']; let first = first" [ngClass]="{ main: first }" (click)="imageClicked(image)">
+            <img src="{{image.srcString}}" alt="{{image.altString}}">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>{{installation.name}}</h3>
+        <hr>
+        <p>{{installation.description}}</p>
+      </div>
+    </div>
+  </div>
 </div>

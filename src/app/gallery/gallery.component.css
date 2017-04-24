@@ -1,0 +1,15 @@
+div.installation-image-wrapper {
+  width: 25%;
+  float: right;
+}
+
+div.installation-image-wrapper img {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid grey;
+}
+
+div.main {
+  width: 75%;
+  float: left;
+}
