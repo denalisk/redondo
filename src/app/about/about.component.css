@@ -1,0 +1,25 @@
+div.lettering-image {
+  margin-left: 23%;
+  margin-right: 17%;
+  width: 60%;
+  float: left;
+  margin-right: 3%;
+}
+
+div.lettering-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+div.encapsulate {
+  border: 1px solid lightgray;
+}
+
+div.buffer {
+  margin: 5%;
+  padding: 3%;
+}
+
+div.center {
+  text-align: center;
+}
