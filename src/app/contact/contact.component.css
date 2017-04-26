@@ -1,0 +1,18 @@
+div.card {
+ padding: 3%  
+}
+
+div.image-container {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid gray;
+}
+
+div.equal {
+  display: flex;
+  display: -webkit-flex;
+}
+
+div.image-container img {
+  width: 100%;
+}

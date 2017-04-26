@@ -5,3 +5,11 @@ div.main-content {
 div.layout-content {
   height: 9vh;
 }
+
+div.image-container {
+  width: 95%;
+}
+
+div.image-container img {
+  width: 100%;
+}
