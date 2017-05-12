@@ -1,36 +1,45 @@
-## SELF NOTES
-* Firebase credentials are added and need to be linked properly
-* Firebase rules need to be adjusted so that they don't just allow everyone
-* Seed data eventually needs to be in Gitignore
-* Going to need media queries for the tile detail in the gallery, if the screen is small it just pops up
+# "Redondo Tile" Artistic Cement Tiles Online
 
+#### _Redondo Tile_, 05.07.2017
 
+### By _Sam Kirsch_
 
-# RedondoV1
+## Description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+#### A website built to display product and company information about a cement tile manufacturer, constructed for a proof-of-concept display. Visitors can view tiles, past installations by the company, and look at basic information about the company. Built using Angular and Typescript.
 
-## Development server
+## Specifications
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Tiles and other information can be stored persistently and remotely
+* Users can view individual tiles details and sort by category
+* Users can view past installations by the company and look at photos
+* Users can easily navigate the site between pages
+* General aesthetic of the site is appealing
 
-## Code scaffolding
+#### Next Steps
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+* Primary desired functionality: an in-page application that allows users to customize tile template images and save their custom designs to be ordered
+* Create admin portal to allow easy maintenance for future owners
 
-## Build
+## Setup
+>Requires: angular-cli, npm
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* Clone this repository
+* From inside the root level of the repository, run npm install, bower install, and bower install bootstrap
+* Add Firebase:
+  * create a new project in your firebase
+  * import data from '/src/app/seedData.json'
+  * on the main page, click "add to my web app" and copy everything inside the {} after "var config ="
+  * Create the file 'src/app/api-keys.ts' and create this exported object, pasting in the copied text where indicated:
+>export var masterFirebaseConfig = {PASTE COPIED TEXT HERE}
 
-## Running unit tests
+* run ng serve and navigate to http://localhost:4200/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Technologies Used
 
-## Running end-to-end tests
+* HTML and CSS
+* TypeScript with Angular2 to manage packages and Firebase for data storage
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+##### Copyright (c) 2017 Sam Kirsch.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##### Licensed under the MIT license.
