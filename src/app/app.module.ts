@@ -25,6 +25,7 @@ import { LimiterPipe } from './Pipes/limiter.pipe';
 import { CategoryPipe } from './Pipes/category.pipe';
 import { WaitPipe } from './Pipes/wait.pipe';
 import { ImageFocusComponent } from './image-focus/image-focus.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -53,7 +54,8 @@ export const firebaseConfig = {
     LimiterPipe,
     CategoryPipe,
     WaitPipe,
-    ImageFocusComponent
+    ImageFocusComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
