@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'limiterPipe',
-  pure: true
+  pure: false
 })
 export class LimiterPipe implements PipeTransform {
 
