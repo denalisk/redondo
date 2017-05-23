@@ -8,6 +8,9 @@
 
 #### A website built to display product and company information about a cement tile manufacturer, constructed for a proof-of-concept display. Visitors can view tiles, past installations by the company, and look at basic information about the company. Built using Angular and Typescript.
 
+[**Live version deployed with firebase**](https://redondo-f3afb.firebaseapp.com/)
+
+
 ## Specifications
 
 * Tiles and other information can be stored persistently and remotely
@@ -39,6 +42,8 @@
 
 * HTML and CSS
 * TypeScript with Angular2 to manage packages and Firebase for data storage
+
+[View this project on github](https://github.com/denalisk/redondo)
 
 ##### Copyright (c) 2017 Sam Kirsch.
 
